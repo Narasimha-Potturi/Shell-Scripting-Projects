@@ -37,6 +37,36 @@ num2=2
 result=$(($num1 + $num2))
 echo "$result"
 
+# Accepting the user input and performing the arthmetic operation
+
+echo "Enter a number"
+read a
+
+echo "Enter a number"
+read b
+
+var=$((a+b))
+echo $var
+
+if [ $a -gt $b ]
+then 
+echo "$a is greater than $b"
+else
+echo "$a is less than $b"
+fi
+
+# similarly we have other operations as well 
+# Operation	Syntax	Explanation
+# Equality--->num1 -eq num2--->is num1 equal to num2
+# Greater than equal to-->num1 -ge num2-->is num1 greater than equal to num2
+# Greater tha-->num1 -gt num-->	is num1 greater than num2
+# Less than equal to-->num1 -le num2-->is num1 less than equal to num2
+# Less than-->num1 -lt num2-->is num1 less than num2
+# Not Equal to-->num1 -ne num2-->is num1 not equal to num2
+
+
+
+
 
 
 
