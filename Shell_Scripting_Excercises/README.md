@@ -1,4 +1,4 @@
-# Shell Scripting Excercies
+# Shell Scripting Excercises
 
 **People who wants to get started with _shell scripting_ and practise few examples these excercises are helpful for them to start with**
 
