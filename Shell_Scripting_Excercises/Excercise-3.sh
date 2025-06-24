@@ -45,3 +45,8 @@ then
 else
     echo "Entered operation is invalid"
 fi
+
+#  git push
+To https://github.com/Narasimha-Potturi/Shell-Scripting-Projects.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Narasimha-Potturi/Shell-Scripting-Projects.g
