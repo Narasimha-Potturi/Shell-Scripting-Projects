@@ -34,13 +34,13 @@ error: failed to push some refs to 'https://github.com/Narasimha-Potturi/Shell-S
 
 ---
 
-## **Objective**
+### **Objective**
 
 Synchronize your local branch with the remote branch **safely**, preserving both sets of changes and avoiding messy commit history.
 
 ---
 
-## **Recommended Solution: `git pull --rebase`**
+### **Recommended Solution: `git pull --rebase`**
 
 The cleanest and safest solution is to rebase your local changes on top of the remote changes.
 
@@ -51,5 +51,46 @@ The cleanest and safest solution is to rebase your local changes on top of the r
    ```bash
    git pull --rebase origin main
    ```
+2. **Resolve conflicts (if any):**
+
+   ```bash
+   git pull --rebase origin main
+   ```
+   * Edit the conflicted files manually.
+
+   * Stage resolved files:
+
+   ```bash
+   git add <filename>
+   ```
+   * Continue the rebase:
+   ```bash
+   git rebase --continue
+   ```
+   * Push your changes to remote:
+
+   ```bash
+   git push origin main
+   ```
+   
+---
+
+### Understanding Rebase
+
+When you run
+
+`git pull --rebase origin main`
+
+Git performs:
+
+1.Fetch remote commits from origin/main.
+
+2.Temporarily removes your local commits.
+
+3.Applies remote commits first.
+
+4.Reapplies your local commits on top of them.
+
+This way, your local work always builds on top of the latest version of the remote branch.
 
 
