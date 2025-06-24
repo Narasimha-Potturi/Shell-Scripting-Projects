@@ -7,8 +7,9 @@
 The List of excercises covered here are
 * Excercise-1:  _Addition of two numbers taken from user_
 * Excercise-2:  _Age Checker that asks the user for their age and then tells them if they are an adult (18 or older) or a minor_
-* 
+* Exercise-3:   _Simple Calculator_
 
+The problem statement and other instructions are given clearly inside the excercise file. 
 
 
 # Some common issues with GIT
