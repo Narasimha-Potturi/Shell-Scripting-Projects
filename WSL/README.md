@@ -38,6 +38,10 @@ It allows developers to run a Linux environment directly on Windows without the 
 - Use the Linux terminal to run commands and applications
 - Access your Windows files from the Linux environment
 
+![image](https://github.com/user-attachments/assets/b1d59cd6-eaec-41ea-add9-eb70c87fd70c)
+![image](https://github.com/user-attachments/assets/666227d1-4d22-4634-8a7f-847dc5357de9)
+![image](https://github.com/user-attachments/assets/10ebb4c3-bdc0-44e7-b837-6e59708fd65b)
+
 ## Troubleshooting
 
 - If you encounter issues, check the WSL documentation for solutions
@@ -47,5 +51,6 @@ It allows developers to run a Linux environment directly on Windows without the 
 
 WSL is a powerful tool for developers who want to use Linux tools on Windows. With its seamless integration and ease of use, it's a great addition to any developer's toolkit.
 
-_*Author : Narasimha Potturi*_
-Keep following for more such content, Star the repository for updates.
+**Keep following for more such content, Star the repository for updates.**
+
+_**Author : Narasimha Potturi**_
