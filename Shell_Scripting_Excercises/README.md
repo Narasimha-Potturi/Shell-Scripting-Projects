@@ -14,6 +14,14 @@ The problem statement and other instructions are given clearly inside the excerc
 
 # Some common issues with GIT
 
+## How to clone a single branch from a git repository?
+
+`git clone --branch <Branch_Name> --single-branch <clone command>`
+
+Replace branch name with your desired branch example `test` and clone command with the link of the repo `https://github.com/Narasimha-Potturi/Java_CI-CD_Project.git`
+
+to clone a single required branch
+
 ## Git Push Rejected – Non-Fast-Forward Error
 
 ## **Problem Statement**
