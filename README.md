@@ -1,5 +1,5 @@
 # Shell-Scripting-Projects
-## This repo has various examples of shell scripting projects which you can try.
+## This repo has various examples of shell scripting projects which you can try with the excercises in the repo.
 
 **To practise these Excercies you require a Linux environment. If you are worried of not having access to a Linux environment or If you are using a Windows machine and want to get a feel of Linux, don't worry I have got you covered on that.**
 
